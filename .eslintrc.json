@@ -5,12 +5,11 @@
   },
   "extends": [
     "plugin:react/recommended",
-    "airbnb",
     "plugin:@typescript-eslint/recommended",
+    "airbnb",
     "prettier/@typescript-eslint",
     "plugin:prettier/recommended"
   ],
-  "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -19,12 +18,16 @@
     "sourceType": "module"
   },
   "plugins": [
-    "react",
     "react-hooks",
-    "@typescript-eslint",
+    "react",
     "prettier"
   ],
   "rules": {
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": "off",
+    "prettier/prettier": "error",
+    "no-unused-expressions": "off",
+    "no-use-before-define": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-filename-extension": [
@@ -51,7 +54,5 @@
     "import/resolver": {
       "typescript": {}
     }
-  },
-  "no-use-before-define": "off",
-  "prettier/prettier": "error"
+  }
 }
