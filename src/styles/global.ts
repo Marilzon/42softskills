@@ -17,6 +17,11 @@ export default createGlobalStyle`
   background-size: cover;
 
   color: #f2ede4;
+
+  a {
+    color: #f2ede4;
+    margin-right: 18px;
+  }
  }
 
  body, button {

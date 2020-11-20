@@ -11,6 +11,7 @@ const SoftSkills: React.FC = () => {
       <Container>
         <Content>
           <h3>./bin/rocketlogs/decrypted/</h3>
+
           <Link to="/">VOLTAR</Link>
           <ul>
             {api.map((data: { id: number; description: string }) => {
