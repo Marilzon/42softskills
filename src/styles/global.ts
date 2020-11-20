@@ -11,7 +11,6 @@ export default createGlobalStyle`
  }
 
  body {
-
   -webkit-font-smoothing: antialiased;
   background: #0d0d0d url(${kaurJPG}) no-repeat;
   background-attachment: fixed;
