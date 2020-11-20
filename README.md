@@ -3,9 +3,10 @@
 
 ### 42softskills
 - Desafio Expansion Week.
-- esta pequena landing page descreve as  soft skills que vejo como as mais importantes para devs, e tambem para demostrar um pouco do que estou aprendendo mesmo em fase de curso.
+- esta pequena landing page descreve as  soft skills que vejo como as mais importantes para devs, e tambem para demostrar um pouco do que estou aprendendo mesmo em fase de curso, '42  é a resposta boa para o titulo, haha'.
+
 ###Site na Vercel
-(link vercel)
+(https://42softskills-igxflcl0f.vercel.app/)
 
 ###Imagens
 
@@ -21,7 +22,7 @@ Demonstração da landing page:
 
 ----
 
-###Denpendencias usadas
+###Denpendencias externas
 
 - "polished.js" (https://polished.js.org/)
 

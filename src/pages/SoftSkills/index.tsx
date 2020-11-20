@@ -10,7 +10,7 @@ const SoftSkills: React.FC = () => {
     <>
       <Container>
         <Content>
-          <h3>./bin/rocketlogs/decrypted/</h3>
+          <h3>./bin/rocketlogs/decrypted/*</h3>
 
           <Link to="/">VOLTAR</Link>
           <ul>
@@ -21,10 +21,10 @@ const SoftSkills: React.FC = () => {
         </Content>
 
         <VideoContainer>
-          <h3>./bin/rocketvideos/decrypted/</h3>
+          <h3>./bin/rocketvideos/decrypted/*</h3>
 
           <IframeContainer>
-            <p>Detalhando alguns revelados acima </p>
+            <p>Detalhando algumas skills reveladas acima:</p>
             <iframe
               title="video"
               width="560"
