@@ -1,5 +1,5 @@
 
-# Aténção a base de dados da RocketSeat foi Hackeada mentalmente por mim e este foi o resultado!
+# Atenção a base de dados da RocketSeat foi Hackeada mentalmente por mim e este foi o resultado!
 
 ### 42softskills
 - Desafio Expansion Week.
