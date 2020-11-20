@@ -26,7 +26,7 @@ Demonstração da landing page:
 
 - "polished.js" (https://polished.js.org/)
 
-####Padrões de codigo
+#### Padrões de codigo
 
 * Eslint
 * Prettier
