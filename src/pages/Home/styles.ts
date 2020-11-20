@@ -9,7 +9,18 @@ export const Container = styled.div`
   flex-flow: column;
 
   align-items: center;
-  place-content: center;
+  justify-content: center;
+
+  figure {
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+    justify-content: center;
+
+    img {
+      margin: 0 5px;
+    }
+  }
 
   a {
     text-align: center;
@@ -21,18 +32,19 @@ export const Container = styled.div`
     transition: 0.6s;
 
     &:hover {
-      background: ${tint(0.25, '#00f')};
+      background: ${tint(0.25, '#004')};
     }
   }
 `;
 
-export const ImageContainer = styled.div`
-  margin-top: 5%;
-  max-height: 600px;
-`;
-
 export const Image = styled.img`
-  width: 360px;
+  width: 280px;
+  height: 280px;
+  transition: 0.6s;
+
+  &:hover {
+    filter: grayscale(90%);
+  }
 `;
 
 export const Text = styled.p``;

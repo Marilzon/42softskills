@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-import kaurJPG from '../assets/kaur-kristjan.jpg';
+import kaurJPG from '../assets/images/background.jpg';
 
 export default createGlobalStyle`
  * {

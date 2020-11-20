@@ -1,25 +1,25 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import hackingIcon from '../../assets/hacking-icon-26.jpg';
-import falaDev from '../../assets/faladev.png';
+import darkJpg from '../../assets/images/dark2.jpg';
+import falaDevPng from '../../assets/images/faladev.png';
 
-import { Container, ImageContainer, Image } from './styles';
+import { Container, Image } from './styles';
 
 const Home: React.FC = () => {
   return (
     <>
       <Container>
-        <h1>soft skills society</h1>
+        <p>we are soft skills society</p>
 
-        <ImageContainer>
-          <Image src={hackingIcon} alt="hackingIcon" />
-          <Image src={falaDev} alt="falaDev" />
-        </ImageContainer>
+        <figure>
+          <Image src={darkJpg} alt="hackingIcon" />
+          <Image src={falaDevPng} alt="falaDev" />
+        </figure>
 
         <Link to="/rocketinvasion">
-          Após a invasão do servidor da RocketSeat dados sobre a soft skills
-          secretas deles foram vazados!
+          Após a invasão de hackers no servidor da RocketSeat dados sobre a nova
+          era de soft skills secretas foram expostas!
         </Link>
       </Container>
     </>
