@@ -22,7 +22,7 @@ Demonstração da landing page:
 
 ----
 
-### Denpendencias externas
+### Dependencias externas
 
 - "polished.js" (https://polished.js.org/)
 
@@ -34,4 +34,4 @@ Demonstração da landing page:
 
 #### Cores
 > by Adobe Color
-![](https://github.com/Marilzon/42softskills/blob/main/src/assets/images/SoftSkillsVideo.png)
+![](https://github.com/Marilzon/42softskills/blob/main/src/assets/images/42Pallete.jpeg)
