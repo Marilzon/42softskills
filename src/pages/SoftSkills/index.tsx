@@ -10,9 +10,9 @@ const SoftSkills: React.FC = () => {
     <>
       <Container>
         <Content>
-          <h3>./bin/rocketlogs/decrypted/*</h3>
-
           <Link to="/">VOLTAR</Link>
+          <h3>./bin/rocketlogs/soft-skills/decrypted/*</h3>
+
           <ul>
             {api.map((data: { id: number; description: string }) => {
               return <li key={data.id}>{data.description}</li>;
@@ -21,7 +21,7 @@ const SoftSkills: React.FC = () => {
         </Content>
 
         <VideoContainer>
-          <h3>./bin/rocketvideos/decrypted/*</h3>
+          <h3>./bin/rocketvideos/soft-skill/decrypted/*</h3>
 
           <IframeContainer>
             <p>Detalhando algumas skills reveladas acima:</p>
